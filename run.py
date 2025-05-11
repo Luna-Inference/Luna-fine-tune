@@ -28,6 +28,7 @@ model = GPT2ForSequenceClassification.from_pretrained("gpt2", num_labels=3)
 
 # 5. evaluate
 import evaluate
+import numpy as np
 
 metric = evaluate.load("accuracy")
 
