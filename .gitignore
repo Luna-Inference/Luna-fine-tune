@@ -1,2 +1,5 @@
 myenv/
 test_trainer/
+unsloth_compiled_cache/
+lora_model/
+outputs/
